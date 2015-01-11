@@ -1526,6 +1526,10 @@ $h6-font-size: 1rem;
 			margin-left: auto;
 			margin-right: auto;
 			position: relative;
+			&:hover {
+				color: $primary-color;
+				border: 4px solid $primary-color;
+			}
 		}
 		#social_media {
 			position: relative;
@@ -1573,6 +1577,10 @@ $h6-font-size: 1rem;
 					float: left;
 					display: inline-block;
 					margin-left: 10px;
+					color: #222222;
+					&:hover {
+						color: $primary-color;
+					}
 				}
 			}
 			#date {
@@ -1582,8 +1590,46 @@ $h6-font-size: 1rem;
 		#banner {
 
 		}
-		#title {
+		#title h1{
+			color: #222222;
+			&:hover {
+				color: $primary-color;
+			}
+		}
+	}
+}
+#profile_container{
+	height: 100%;
+	overflow: scroll;
+	#profile{
+		margin: 1% 5% 5% 5%;
+		#author{
+			padding: 0px 0px 5px 0px;
+			#circular {
+				display: inline-block;
+				width: 90px;
+				height: 90px;
+				border-radius: 150px;
+				-webkit-border-radius: 150px;
+				-moz-border-radius: 150px;
+				background: url('profile_brigandi.jpg') no-repeat;
+				background-size: cover;
+				margin-top: -45px;
+			}
+			#name {
+				float: left;
+				display: inline-block;
+				margin-left: 10px;
+			}
+		}
+		#date {
+			padding: 0px 0px 5px 0px;
+			}
+		#banner {
 
+		}
+		#title {
+			margin-top:-15px;
 		}
 	}
 }
