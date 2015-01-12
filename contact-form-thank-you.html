@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Success | Brand Club</title>
+	<meta name="author" content="Brian Ayers" />
+	<meta name="description" content="Get Branded." />
+	<meta name="keywords"  content="Personal website, personal branding, website design, website portfolio" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="shortcut icon" href="favicon.png" />
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/examples.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/slabtext.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/custom.css" />
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.min.js"></script>
+
+
+		<!-- LOADING GRAPHIC PAGE -->
+	<style>
+		/* This only works with JavaScript, 
+		   if it's not present, don't show loader */
+		.no-js #loading_page { display: none;  }
+		.js .loading_page { display: block; background-color: white; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; z-index: 99999;}
+	</style>
+
+	<script>
+		// Wait for window load
+		$(window).load(function() {
+				// Animate loader off screen
+				$("#loading_page").delay(2000).animate({
+					top: -10000
+				}, 400);
+		});
+	</script>	
+
+
+	<style>
+
+	html, body { 
+		height: 100%; 
+		width: 100%; 
+		margin: 0; 
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		padding: 6% 6% 6% 6%;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/example_shaikh.jpg);
+		min-height: 100vh;
+	}
+	</style>
+
+</head>
+<body>
+
+	<div class = "loading_page" id ="loading_page">
+		<h1 id = "loading_title"> Submitting... </h1>
+		<img src="imgs/preloader.gif" id="loader">
+	</div>
+
+	<div class = "logo">
+		<a href="index.html">
+			<img src="imgs/logo.png"></img>
+		</a>
+	</div>
+
+	<div class="section " id="section0">
+		<h1> Thank you.</h1>
+		<h1> We will contact you soon! </h1>
+	</div>
+
+
+</body>
+</html>
