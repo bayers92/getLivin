@@ -1560,7 +1560,7 @@ $h6-font-size: 1rem;
 			line-height: 180%;
 			#author{
 				padding: 0px 0px 5px 0px;
-				#circular {
+				#circular img{
 					display: inline-block;
 					float: left;
 					width: 30px;
@@ -1568,7 +1568,6 @@ $h6-font-size: 1rem;
 					border-radius: 150px;
 					-webkit-border-radius: 150px;
 					-moz-border-radius: 150px;
-					background: url('profile_brigandi.jpg') no-repeat;
 					background-size: cover;
 					box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 					-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -1611,14 +1610,13 @@ $h6-font-size: 1rem;
 		}
 		#author{
 			padding: 0px 0px 5px 0px;
-			#circular {
+			#circular img{
 				display: inline-block;
 				width: 90px;
 				height: 90px;
 				border-radius: 150px;
 				-webkit-border-radius: 150px;
 				-moz-border-radius: 150px;
-				background: url('profile_brigandi.jpg') no-repeat;
 				background-size: cover;
 				margin-top: -45px;
 			}
