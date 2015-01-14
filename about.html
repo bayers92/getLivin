@@ -3,13 +3,15 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Submit Your Story | getLIVIN</title>
+	<title>getLIVIN</title>
 	<link rel="stylesheet" href="stylesheets/app.css" />
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="stylesheets/font-awesome/css/font-awesome.min.css" />
 	<script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
+
+
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			<nav class="tab-bar">
@@ -71,24 +73,9 @@
 						</div>
 					</div>
 
-					<div class="medium-8 columns" id ="form_container">
-						<h1> Submit your story </h1>
-						<p>	We want to hear stories from all walks of life. </p>
-						<p> Whether it be a hardship you have endured or adversity you have overcome, share your story with the getLivin community to inspire others. </p>
-						<p> If you are interested in sharing your story with the community, please fill out your name and contact email below and we will get back to you within 24 hours with more information. </p>
-						<form class= "pure-form" method="POST" name="contactform" action="contact-form-handler.php"> 
-							<fieldset>
-								<input type="text" name="name" placeholder="Your Name" required>
-								<input type="email" name="email" placeholder="Email Address" required><br/>
-								<button type="submit" class="pure-button pure-button-primary">I'm Interested</button>
-							</fieldset>
-						</form>
-						<script language="JavaScript">
-						var frmvalidator  = new Validator("contactform");
-						frmvalidator.addValidation("name","req","Please provide your name"); 
-						frmvalidator.addValidation("email","req","Please provide your email"); 
-						frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-						</script>
+
+					<div class="medium-8 columns" id ="about_container">
+						<h1> About Page </h1>
 					</div>
 				</div>
 				<!-- END MAIN CONTENT -->

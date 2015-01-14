@@ -1694,3 +1694,11 @@ $h6-font-size: 1rem;
 		color: gray;
 	}
 }
+
+.tab-bar {
+	z-index: 9999;
+	float: left;
+	.left-small {
+		border-right: none;
+	}
+}
